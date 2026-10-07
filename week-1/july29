@@ -1,0 +1,47 @@
+x = int(1)
+print(x)
+
+x = float(1)
+print(x)
+
+x = str("l")
+print(x)
+
+# slicing of string 
+s = "Hello, World!"
+print(s[2:5])
+print(s[:8])
+print(s[2:])
+
+#string handling 
+A = "KONERU LAKSHMIAHA EDUCATIONAL FOUNDATION"
+print(A.lower())
+print(A.find('I'))
+print(A.capitalize())
+print(A.swapcase())
+print(A.title())
+print(len(A))
+
+#concentrating 2 strings we have to use + symbol 
+B = "KONERU"
+C = "LAKSHMIAHA"
+D = B + " " + C
+print(D)
+
+D = B + C 
+print(D)
+
+# string formatting method 
+fname = "Ananya"
+fage = 20
+print(f"Hello, my name is {fname} and I am {fage} years old.")
+txt = "My name is {fname} , I'm {age}".format(fname="John", age=30)
+txt.format("john",30)
+
+#conditional statements 
+x = 10
+y = 20
+if x > y:
+    print("x is greater than y")
+else:
+    print("y is greater than x")
