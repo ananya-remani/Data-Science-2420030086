@@ -1,0 +1,24 @@
+# numpy - numeric python 
+import numpy as np 
+N = np.array([10,12,13,14,15])
+print(type(N))
+print(N.ndim)
+
+N = np.array([1,2,3])
+N = np.array(1)
+print(N.ndim)
+
+P = np.array([[1,2,3],[4,5,6]])
+print(P.ndim)
+
+# initialize numpy arrays
+P = np.zeros([1])
+print(P)
+N = np.zeros([3,4])
+print(N)
+print(type(N))
+
+#array indexing 
+S = np.array([[[[1,2,3],[4,5,6]],[[6,7,8],[9,7,8]]]])
+print(S[0,0,1])
+print(S[0,0,2])
